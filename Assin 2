@@ -1,0 +1,8 @@
+i=int(input("enter any number "))
+if i>0:
+    print("Postive number")
+else:
+    print("Negative number")
+
+Output 
+Enter any number: 17
