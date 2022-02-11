@@ -1,0 +1,39 @@
+Sno=int(input("Enter roll no:"))
+Snake=input("Enter student name:"))
+sub1=int(input("Enter marks of the first subject: "))
+sub2=int(input("Enter marks of the second subject: "))
+sub3=int(input("Enter marks of the third subject: "))
+sub4=int(input("Enter marks of the fourth subject: "))
+sub5=int(input("Enter marks of the fifth subject: "))
+avg=(sub1+sub2+sub3+sub4+sub4)/5
+if(avg>=90):
+    print("Grade: A")
+elif(avg>=80&avg<90):
+    print("Grade: B")
+elif(avg>=70&avg<80):
+    print("Grade: C")
+elif(avg>=60&avg<70):
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+Output 
+Case 1:
+Enter roll no:17
+Enter student name:mani
+Enter marks of the first subject: 85
+Enter marks of the second subject: 95
+Enter marks of the third subject: 99
+Enter marks of the fourth subject: 93
+Enter marks of the fifth subject: 100
+Grade: A
+ 
+Case 2:
+Enter roll no:12
+Enter student name:Eswar
+Enter marks of the first subject: 81
+Enter marks of the second subject: 72
+Enter marks of the third subject: 94
+Enter marks of the fourth subject: 85
+Enter marks of the fifth subject: 80
+Grade: B
