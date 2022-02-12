@@ -1,0 +1,35 @@
+- [ ] Paste=25
+- [ ] Fog=150
+- [ ] Wheat=140
+- [ ] unibic=180
+- [ ] choclt=120
+- [ ] disc=0
+- [ ] sq=int(input('enter quantity of paste :'))
+- [ ] sctq=int(input('enter quantity of scents:'))
+- [ ] fq=int(input('enter quantity of fog:'))
+- [ ] uniq=int(input('enter quantity of unibic packs:'))
+- [ ] chq=int(input('enter quantity of chocolates:'))
+- [ ] total=(paste*sq)+(scent*sctq)+(fog*fq)+(unibic*uniq)+(choclt*chq)
+- [ ] if total>5000:
+- [ ]     disc=total*0.10
+- [ ] elif total>3000:
+- [ ]     disc=total*0.08
+- [ ] elif total>2000:
+- [ ]     disc=total*0.05
+- [ ] elif total>1000:
+- [ ]     disc=total*0.03
+- [ ] if total>3000:
+- [ ]     tax=total*0.10
+- [ ] else:
+- [ ]     tax=total*0.18
+- [ ] billamount=total-disc+tax
+- [ ] print('bill amount:',billamount)
+
+Output 
+enter quantity of paste:3
+enter quantity of fog:5
+enter quantity of floar:4
+enter quantity of unibic packs:5
+enter quantity of chocolates:6
+bill amount: 3065.1
+>
